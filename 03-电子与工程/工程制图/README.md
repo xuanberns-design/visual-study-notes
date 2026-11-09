@@ -1,9 +1,9 @@
 # ⚙️ 工程制图
 
-> 共 **8** 份 PDF · 379 页 · [返回首页](../../README.md) · [在线浏览](https://xuanberns-design.github.io/visual-study-notes/#%E5%B7%A5%E7%A8%8B%E5%88%B6%E5%9B%BE)
+> 共 **9** 份 PDF · 459 页 · [返回首页](../../README.md) · [在线浏览](https://xuanberns-design.github.io/visual-study-notes/#%E5%B7%A5%E7%A8%8B%E5%88%B6%E5%9B%BE)
 
 
-## 📘 专题讲义（5）
+## 📘 专题讲义（6）
 
 | 封面 | 标题 | 页数 | 下载 |
 |:---:|---|:---:|:---:|
@@ -12,6 +12,7 @@
 | <img src="%E4%B8%93%E9%A2%98%E8%AE%B2%E4%B9%89/covers/%E5%B7%A5%E7%A8%8B%E5%88%B6%E5%9B%BE%E6%8A%95%E5%BD%B1%E5%9F%BA%E7%A1%80_%E9%98%B6%E6%AE%B5%E6%80%BB%E7%BB%93%E8%AE%B2%E4%B9%89.jpg" width="110"> | **工程制图投影基础 阶段总结讲义** | 78 | [PDF](%E4%B8%93%E9%A2%98%E8%AE%B2%E4%B9%89/%E5%B7%A5%E7%A8%8B%E5%88%B6%E5%9B%BE%E6%8A%95%E5%BD%B1%E5%9F%BA%E7%A1%80_%E9%98%B6%E6%AE%B5%E6%80%BB%E7%BB%93%E8%AE%B2%E4%B9%89.pdf) |
 | <img src="%E4%B8%93%E9%A2%98%E8%AE%B2%E4%B9%89/covers/%E7%82%B9%E7%9A%84%E4%B8%89%E9%9D%A2%E6%AD%A3%E6%8A%95%E5%BD%B1_%E7%B2%BE%E8%AE%B2%E7%AC%94%E8%AE%B0%E3%80%81%E5%85%B8%E5%9E%8B%E9%A2%98%E4%B8%8E%E8%AF%A6%E7%BB%86%E8%A7%A3%E7%AD%94.jpg" width="110"> | **点的三面正投影：精讲笔记、典型题与详细解答** | 60 | [PDF](%E4%B8%93%E9%A2%98%E8%AE%B2%E4%B9%89/%E7%82%B9%E7%9A%84%E4%B8%89%E9%9D%A2%E6%AD%A3%E6%8A%95%E5%BD%B1_%E7%B2%BE%E8%AE%B2%E7%AC%94%E8%AE%B0%E3%80%81%E5%85%B8%E5%9E%8B%E9%A2%98%E4%B8%8E%E8%AF%A6%E7%BB%86%E8%A7%A3%E7%AD%94.pdf) |
 | <img src="%E4%B8%93%E9%A2%98%E8%AE%B2%E4%B9%89/covers/%E7%AB%8B%E4%BD%93%E7%9A%84%E6%8A%95%E5%BD%B1_%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E8%AE%B2%E4%B9%89.jpg" width="110"> | **立体的投影 基础学习讲义** | 48 | [PDF](%E4%B8%93%E9%A2%98%E8%AE%B2%E4%B9%89/%E7%AB%8B%E4%BD%93%E7%9A%84%E6%8A%95%E5%BD%B1_%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E8%AE%B2%E4%B9%89.pdf) |
+| <img src="%E4%B8%93%E9%A2%98%E8%AE%B2%E4%B9%89/covers/%E7%BB%84%E5%90%88%E4%BD%93_%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E8%AE%B2%E4%B9%89.jpg" width="110"> | **组合体 基础学习讲义** | 80 | [PDF](%E4%B8%93%E9%A2%98%E8%AE%B2%E4%B9%89/%E7%BB%84%E5%90%88%E4%BD%93_%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E8%AE%B2%E4%B9%89.pdf) |
 
 ## 📝 作业与习题解析（3）
 
