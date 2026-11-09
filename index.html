@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>大学课程可视化讲义合集</title>
+<meta name="description" content="数学、物理、模电、运筹学、C++/Python、数据结构、英语六级等大学课程可视化讲义与习题详解 PDF">
+<style>
+:root{--bg:#f6f7f9;--card:#fff;--fg:#1d2433;--mute:#667085;--line:#e4e7ec;--acc:#1f4b8f;--chip:#eef2f8}
+@media (prefers-color-scheme:dark){:root{--bg:#0f1218;--card:#181c24;--fg:#e6e9ef;--mute:#98a2b3;--line:#2a303c;--acc:#7aa7ff;--chip:#222836}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.6 -apple-system,"PingFang SC","Microsoft YaHei",sans-serif}
+header{max-width:1200px;margin:0 auto;padding:40px 16px 8px}h1{margin:0 0 6px;font-size:28px}header p{margin:0;color:var(--mute)}
+.bar{position:sticky;top:0;z-index:2;background:var(--bg);border-bottom:1px solid var(--line)}.bar>div{max-width:1200px;margin:0 auto;padding:12px 16px;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+input{flex:1 1 220px;padding:9px 12px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--fg);font-size:15px}
+.chip{border:1px solid var(--line);background:var(--chip);color:var(--fg);padding:6px 12px;border-radius:999px;cursor:pointer;font-size:14px}.chip.on{background:var(--acc);color:#fff;border-color:var(--acc)}
+main{max-width:1200px;margin:0 auto;padding:8px 16px 60px}h2{font-size:19px;margin:28px 0 12px;scroll-margin-top:70px}h2 small{color:var(--mute);font-weight:400;font-size:13px;margin-left:6px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:14px}
+a.card{display:block;background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden;color:inherit;text-decoration:none;transition:transform .15s}
+a.card:hover{transform:translateY(-2px);border-color:var(--acc)}a.card img{display:block;width:100%;aspect-ratio:210/297;object-fit:cover;object-position:top;background:#fff}
+.meta{padding:8px 10px}.t{font-size:13.5px;font-weight:600;line-height:1.4;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}.s{font-size:12px;color:var(--mute);margin-top:4px}
+.star{display:inline-block;margin-top:12px;padding:6px 12px;border:1px solid var(--line);border-radius:8px;color:var(--fg);text-decoration:none;background:var(--card)}
+</style></head><body>
+<header><h1>📚 大学课程可视化讲义合集</h1><p id="sum">加载中…</p><a class="star" href="https://github.com/xuanberns-design/visual-study-notes">⭐ 去 GitHub 点个 Star</a></header>
+<div class="bar"><div><input id="q" placeholder="搜索：行列式、单纯形、BJT、指针…"><span id="chips"></span></div></div>
+<main id="m"></main>
+<script>
+fetch('catalog.json').then(r=>r.json()).then(I=>{
+ const enc=p=>p.split('/').map(encodeURIComponent).join('/');
+ const cats=[...new Set(I.map(i=>i.cat))].sort();let cur='全部';
+ document.getElementById('sum').textContent=`${I.length} 份 PDF · ${I.reduce((a,i)=>a+i.pages,0)} 页 · ${new Set(I.map(i=>i.subject)).size} 门课程 · 点封面直接阅读`;
+ const chips=document.getElementById('chips');
+ ['全部',...cats].forEach(c=>{const b=document.createElement('button');b.className='chip'+(c==cur?' on':'');b.textContent=c=='全部'?c:c.slice(3);b.onclick=()=>{cur=c;[...chips.children].forEach(x=>x.classList.toggle('on',x==b));draw()};chips.appendChild(b)});
+ const q=document.getElementById('q');q.oninput=draw;
+ function draw(){const k=q.value.trim().toLowerCase();const m=document.getElementById('m');m.innerHTML='';
+  const subs={};I.filter(i=>(cur=='全部'||i.cat==cur)&&(!k||(i.title+i.subject).toLowerCase().includes(k)))
+   .sort((a,b)=>a.cat.localeCompare(b.cat)||a.subject.localeCompare(b.subject)||((a.kind=='专题讲义'?0:1)-(b.kind=='专题讲义'?0:1)))
+   .forEach(i=>(subs[i.subject]=subs[i.subject]||[]).push(i));
+  for(const [s,its] of Object.entries(subs)){const h=document.createElement('h2');h.id=s;h.innerHTML=`${s}<small>${its.length} 份</small>`;m.appendChild(h);
+   const g=document.createElement('div');g.className='grid';
+   its.forEach(i=>{const a=document.createElement('a');a.className='card';a.href=enc(i.pdf);a.target='_blank';
+    a.innerHTML=`<img loading="lazy" src="${enc(i.cover)}" alt=""><div class="meta"><div class="t"></div><div class="s">${i.kind} · ${i.pages} 页</div></div>`;a.querySelector('.t').textContent=i.title;g.appendChild(a)});
+   m.appendChild(g)}
+  if(!m.children.length)m.innerHTML='<p style="color:var(--mute)">没有找到相关讲义</p>';
+  if(location.hash){const e=document.getElementById(decodeURIComponent(location.hash.slice(1)));e&&e.scrollIntoView()}}
+ draw()});
+</script></body></html>
