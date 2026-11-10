@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://xuanberns-design.github.io/visual-study-notes/sitemap.xml
