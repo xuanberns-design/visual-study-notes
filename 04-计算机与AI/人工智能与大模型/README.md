@@ -1,9 +1,11 @@
-# 💻 人工智能与大模型
+# 人工智能与大模型
+
+<sub>Machine Learning & LLMs</sub>
 
 > 共 **4** 份 PDF · 301 页 · [返回首页](../../README.md) · [在线浏览](https://xuanberns-design.github.io/visual-study-notes/#%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E4%B8%8E%E5%A4%A7%E6%A8%A1%E5%9E%8B)
 
 
-## 📘 专题讲义（4）
+## 专题讲义（4）
 
 | 封面 | 标题 | 页数 | 下载 |
 |:---:|---|:---:|:---:|

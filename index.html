@@ -1,43 +1,421 @@
 <!doctype html>
-<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>大学课程可视化讲义合集</title>
-<meta name="description" content="数学、物理、模电、运筹学、C++/Python、数据结构、英语六级等大学课程可视化讲义与习题详解 PDF">
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Visual Study Notes · 大学课程可视化讲义</title>
+<meta name="description" content="Free, illustrated lecture notes and fully worked problem sets for university mathematics, physics, electronics, operations research, programming and English. 大学课程可视化讲义与习题详解 PDF，免费在线阅读。">
+<meta name="theme-color" content="#F5F7FA" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0D1522" media="(prefers-color-scheme: dark)">
+<link rel="canonical" href="https://xuanberns-design.github.io/visual-study-notes/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Visual Study Notes · 大学课程可视化讲义">
+<meta property="og:description" content="Illustrated lecture notes and worked problem sets for university STEM courses. Free PDFs, CC BY-NC-SA 4.0.">
+<meta property="og:url" content="https://xuanberns-design.github.io/visual-study-notes/">
+<meta property="og:image" content="https://xuanberns-design.github.io/visual-study-notes/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://xuanberns-design.github.io/visual-study-notes/og.png">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23173A66'/%3E%3Cpath d='M9 8h10l4 4v12H9z' fill='none' stroke='%23fff' stroke-width='2'/%3E%3Cpath d='M12 16h8M12 20h6' stroke='%23fff' stroke-width='2'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&family=Noto+Serif+SC:wght@600&display=swap" rel="stylesheet">
 <style>
-:root{--bg:#f6f7f9;--card:#fff;--fg:#1d2433;--mute:#667085;--line:#e4e7ec;--acc:#1f4b8f;--chip:#eef2f8}
-@media (prefers-color-scheme:dark){:root{--bg:#0f1218;--card:#181c24;--fg:#e6e9ef;--mute:#98a2b3;--line:#2a303c;--acc:#7aa7ff;--chip:#222836}}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.6 -apple-system,"PingFang SC","Microsoft YaHei",sans-serif}
-header{max-width:1200px;margin:0 auto;padding:40px 16px 8px}h1{margin:0 0 6px;font-size:28px}header p{margin:0;color:var(--mute)}
-.bar{position:sticky;top:0;z-index:2;background:var(--bg);border-bottom:1px solid var(--line)}.bar>div{max-width:1200px;margin:0 auto;padding:12px 16px;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
-input{flex:1 1 220px;padding:9px 12px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--fg);font-size:15px}
-.chip{border:1px solid var(--line);background:var(--chip);color:var(--fg);padding:6px 12px;border-radius:999px;cursor:pointer;font-size:14px}.chip.on{background:var(--acc);color:#fff;border-color:var(--acc)}
-main{max-width:1200px;margin:0 auto;padding:8px 16px 60px}h2{font-size:19px;margin:28px 0 12px;scroll-margin-top:70px}h2 small{color:var(--mute);font-weight:400;font-size:13px;margin-left:6px}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:14px}
-a.card{display:block;background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden;color:inherit;text-decoration:none;transition:transform .15s}
-a.card:hover{transform:translateY(-2px);border-color:var(--acc)}a.card img{display:block;width:100%;aspect-ratio:210/297;object-fit:cover;object-position:top;background:#fff}
-.meta{padding:8px 10px}.t{font-size:13.5px;font-weight:600;line-height:1.4;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}.s{font-size:12px;color:var(--mute);margin-top:4px}
-.star{display:inline-block;margin-top:12px;padding:6px 12px;border:1px solid var(--line);border-radius:8px;color:var(--fg);text-decoration:none;background:var(--card)}
-</style></head><body>
-<header><h1>📚 大学课程可视化讲义合集</h1><p id="sum">加载中…</p><a class="star" href="https://github.com/xuanberns-design/visual-study-notes">⭐ 去 GitHub 点个 Star</a></header>
-<div class="bar"><div><input id="q" placeholder="搜索：行列式、单纯形、BJT、指针…"><span id="chips"></span></div></div>
-<main id="m"></main>
+:root{
+  --paper:#F5F7FA; --surface:#FFFFFF; --ink:#173A66; --text:#1A2332; --muted:#566173;
+  --rule:#D8DEE7; --rule-strong:#B9C3D1; --accent:#1F5FA8; --accent-ink:#FFFFFF;
+  --kind-lec:#1F5FA8; --kind-ps:#8B5E00; --bar:#9DB6D6; --grid:rgba(31,95,168,.075); --grid-major:rgba(31,95,168,.14);
+  --shadow:0 1px 2px rgba(23,58,102,.08),0 8px 24px rgba(23,58,102,.10);
+  --serif:"Source Serif 4","Songti SC","Noto Serif SC","Noto Serif CJK SC","SimSun",Georgia,serif;
+  --sans:"IBM Plex Sans",-apple-system,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans SC",sans-serif;
+  --wrap:1200px; --r:6px;
+}
+@media (prefers-color-scheme:dark){:root{
+  --paper:#0D1522; --surface:#142033; --ink:#C9DBF2; --text:#E3E8EF; --muted:#9CA8BA;
+  --rule:#243349; --rule-strong:#34465F; --accent:#6FA8E8; --accent-ink:#0D1522;
+  --kind-lec:#7DB2EE; --kind-ps:#E0B060; --bar:#3D5E88; --grid:rgba(111,168,232,.06); --grid-major:rgba(111,168,232,.12);
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px rgba(0,0,0,.35);
+}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}}
+body{margin:0;background:var(--paper);color:var(--text);font:16px/1.6 var(--sans);font-feature-settings:"tnum" 1}
+a{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:3px}
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 16px}
+@media (min-width:760px){.wrap{padding:0 32px}}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.skip{position:absolute;left:-999px;top:8px;background:var(--surface);padding:8px 12px;z-index:10}.skip:focus{left:8px}
+
+/* nav */
+.nav{border-bottom:1px solid var(--rule);background:var(--paper)}
+.nav .wrap{display:flex;align-items:center;gap:20px;min-height:60px}
+.brand{display:flex;align-items:center;gap:10px;color:var(--ink);text-decoration:none;font:600 17px/1 var(--serif);white-space:nowrap}
+.brand svg{flex:none}
+.nav ul{display:none;list-style:none;margin:0 0 0 12px;padding:0;gap:22px}
+.nav ul a{color:var(--muted);text-decoration:none;font-size:15px}.nav ul a:hover{color:var(--text)}
+@media (min-width:760px){.nav ul{display:flex}}
+.nav .end{margin-left:auto;display:flex;gap:8px;align-items:center}
+.btn{display:inline-flex;align-items:center;gap:8px;min-height:40px;padding:0 14px;border-radius:var(--r);border:1px solid var(--rule-strong);background:var(--surface);color:var(--text);font:500 15px/1 var(--sans);text-decoration:none;cursor:pointer;transition:border-color .15s,background .15s}
+.btn:hover{border-color:var(--accent)}
+.btn.primary{background:var(--ink);border-color:var(--ink);color:var(--paper)}
+.btn.primary:hover{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.btn svg{width:16px;height:16px;flex:none}
+.lang{min-width:44px;justify-content:center;padding:0 10px}
+.nav .gh-label{display:none}@media (min-width:520px){.nav .gh-label{display:inline}}
+
+/* hero */
+.hero{position:relative;overflow:hidden;border-bottom:1px solid var(--rule);
+  background-color:var(--paper);
+  background-image:linear-gradient(var(--grid-major) 1px,transparent 1px),linear-gradient(90deg,var(--grid-major) 1px,transparent 1px),
+    linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);
+  background-size:80px 80px,80px 80px,16px 16px,16px 16px;background-position:-1px -1px}
+.hero .wrap{display:grid;gap:40px;padding-top:56px;padding-bottom:56px;align-items:center}
+@media (min-width:960px){.hero .wrap{grid-template-columns:minmax(0,1fr) minmax(0,500px);padding-top:88px;padding-bottom:88px}}
+.hero h1{margin:0 0 20px;font:600 clamp(34px,5.2vw,58px)/1.08 var(--serif);color:var(--ink);letter-spacing:-.01em;max-width:15em;text-wrap:balance}
+.hero .lead{margin:0 0 28px;font-size:clamp(17px,1.6vw,19px);line-height:1.65;color:var(--text);max-width:36em}
+.hero .lead .zh-sub{display:block;margin-top:6px;color:var(--muted);font-size:16px}
+.facts{display:flex;flex-wrap:wrap;gap:0;margin:0 0 32px;padding:0;border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule-strong);max-width:520px;background:color-mix(in srgb,var(--paper) 85%,transparent)}
+.facts div{flex:1 1 0;padding:12px 16px 12px 0}
+.facts div+div{padding-left:16px;border-left:1px solid var(--rule)}
+.facts dt{font-size:13px;color:var(--muted)}
+.facts dd{margin:2px 0 0;font:600 26px/1.15 var(--serif);color:var(--ink)}
+.cta{display:flex;flex-wrap:wrap;gap:10px}
+.cta .btn{min-height:46px;padding:0 20px;font-size:16px}
+
+.stack{position:relative;height:clamp(340px,52vw,520px);max-width:500px;width:100%;margin:0 auto}
+.stack a{position:absolute;width:56%;aspect-ratio:480/679;border-radius:3px;overflow:hidden;background:#fff;box-shadow:var(--shadow);border:1px solid var(--rule);transition:transform .25s ease}
+.stack img{display:block;width:100%;height:100%;object-fit:cover}
+.stack a:nth-child(1){left:0;top:9%;transform:rotate(-5deg)}
+.stack a:nth-child(2){left:44%;top:0;transform:rotate(4deg)}
+.stack a:nth-child(3){left:20%;top:22%;transform:rotate(-1deg);z-index:2}
+.stack a:hover,.stack a:focus-visible{transform:rotate(0) translateY(-6px);z-index:3}
+@media (prefers-reduced-motion:no-preference){
+  .stack a{animation:deal .7s cubic-bezier(.2,.7,.2,1) both}
+  .stack a:nth-child(2){animation-delay:.08s}.stack a:nth-child(3){animation-delay:.16s}
+  @keyframes deal{from{opacity:0;translate:0 24px}to{opacity:1;translate:0 0}}
+}
+
+/* sections */
+section{padding:64px 0}
+@media (min-width:760px){section{padding:88px 0}}
+.sec-head{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:8px 24px;margin-bottom:28px}
+h2{margin:0;font:600 clamp(26px,3vw,34px)/1.2 var(--serif);color:var(--ink)}
+.sec-head p{margin:0;color:var(--muted);max-width:40em}
+
+/* course index table */
+.index{width:100%;border-collapse:collapse;font-size:15px}
+.index caption{text-align:left}
+.index th,.index td{padding:10px 12px;border-bottom:1px solid var(--rule);text-align:left;vertical-align:middle}
+.index thead th{font-weight:500;color:var(--muted);font-size:13px;border-bottom:1px solid var(--rule-strong);white-space:nowrap}
+.index .num{text-align:right;white-space:nowrap}
+.index tbody.field th[scope=rowgroup]{padding-top:22px;font:600 15px/1.3 var(--serif);color:var(--ink);border-bottom:1px solid var(--rule-strong)}
+.index tr.row{cursor:pointer}
+.index tr.row:hover td{background:color-mix(in srgb,var(--accent) 6%,transparent)}
+.index .course a{color:var(--text);text-decoration:none;font-weight:500}
+.index .course a:hover{color:var(--accent);text-decoration:underline}
+.index .course small{display:block;color:var(--muted);font-size:13px;font-weight:400}
+.bar{display:flex;align-items:center;gap:10px;min-width:120px}
+.bar span{display:block;height:8px;border-radius:2px;background:var(--bar)}
+.bar b{font-weight:500;min-width:3.2em;text-align:right}
+.col-bar{width:34%}
+@media (max-width:640px){.index .hide-s{display:none}.col-bar{width:auto}.index th,.index td{padding:9px 6px}}
+
+/* library */
+.lib{border-top:1px solid var(--rule);background:var(--surface)}
+.tools{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--surface) 94%,transparent);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-bottom:1px solid var(--rule)}
+.tools .wrap{display:flex;flex-wrap:wrap;gap:10px;align-items:center;padding-top:12px;padding-bottom:12px}
+.search{position:relative;flex:1 1 100%}@media (min-width:760px){.search{flex:1 1 260px}}
+.search svg{position:absolute;left:12px;top:50%;width:18px;height:18px;transform:translateY(-50%);color:var(--muted);pointer-events:none}
+.search input{width:100%;min-height:44px;padding:0 12px 0 38px;border:1px solid var(--rule-strong);border-radius:var(--r);background:var(--paper);color:var(--text);font:16px var(--sans)}
+.search input:focus{outline:2px solid var(--accent);outline-offset:-1px;border-color:var(--accent)}
+.seg{display:inline-flex;border:1px solid var(--rule-strong);border-radius:var(--r);overflow:hidden;flex:none}
+.seg button{min-height:42px;padding:0 14px;border:0;background:var(--paper);color:var(--muted);font:500 14px var(--sans);cursor:pointer}
+.seg button+button{border-left:1px solid var(--rule-strong)}
+.seg button[aria-pressed=true]{background:var(--ink);color:var(--paper)}
+.pick{flex:1 1 100px;min-width:0}.pick select{width:100%}
+select{min-height:44px;padding:0 34px 0 12px;border:1px solid var(--rule-strong);border-radius:var(--r);background:var(--paper) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='%23566173' stroke-width='1.6'/%3E%3C/svg%3E") no-repeat right 12px center;color:var(--text);font:15px var(--sans);appearance:none;-webkit-appearance:none;max-width:100%}
+.status{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center;padding:20px 0 0;color:var(--muted);font-size:14px}
+.status button{border:0;background:none;color:var(--accent);font:500 14px var(--sans);cursor:pointer;padding:6px 0;text-decoration:underline}
+.group{padding-top:36px;scroll-margin-top:84px}
+.group h3{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 12px;margin:0 0 16px;padding-bottom:10px;border-bottom:1px solid var(--rule);font:600 21px/1.3 var(--serif);color:var(--ink)}
+.group h3 .en{font:400 15px var(--sans);color:var(--muted)}
+.group h3 .cnt{margin-left:auto;font:400 14px var(--sans);color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px 16px}
+@media (min-width:560px){.grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media (min-width:860px){.grid{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media (min-width:1100px){.grid{grid-template-columns:repeat(5,minmax(0,1fr))}}
+.doc{display:block;color:inherit;text-decoration:none}
+.doc .cv{display:block;aspect-ratio:480/679;border:1px solid var(--rule);border-radius:3px;overflow:hidden;background:#fff;transition:border-color .15s,box-shadow .15s}
+.doc img{display:block;width:100%;height:100%;object-fit:cover;object-position:top}
+.doc:hover .cv,.doc:focus-visible .cv{border-color:var(--accent);box-shadow:var(--shadow)}
+.doc .t{margin-top:10px;font-size:14.5px;font-weight:500;line-height:1.45;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.doc:hover .t{color:var(--accent)}
+.doc .m{display:flex;align-items:center;gap:6px;margin-top:4px;font-size:13px;color:var(--muted)}
+.doc .m i{width:8px;height:8px;border-radius:50%;background:var(--kind-lec);flex:none}
+.doc .m i.ps{background:var(--kind-ps);border-radius:1px}
+.empty{padding:48px 0;color:var(--muted)}
+
+/* about */
+.about .cols{display:grid;gap:32px}
+@media (min-width:860px){.about .cols{grid-template-columns:repeat(3,minmax(0,1fr));gap:48px}}
+.about h3{margin:0 0 10px;font:600 19px/1.3 var(--serif);color:var(--ink)}
+.about p,.about li{color:var(--text);margin:0 0 8px;max-width:36em}
+.about ul{margin:0;padding-left:1.1em}
+.anatomy{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0 0;padding:0;list-style:none}
+.anatomy li{margin:0;padding:4px 10px;border:1px solid var(--rule-strong);border-radius:3px;font-size:14px;background:var(--surface)}
+.anatomy li+li::before{content:none}
+
+footer{border-top:1px solid var(--rule);padding:32px 0 48px;color:var(--muted);font-size:14px}
+footer .wrap{display:flex;flex-wrap:wrap;gap:12px 24px;justify-content:space-between}
+footer a{color:var(--muted)}
+</style>
+</head>
+<body>
+<a class="skip" href="#library" data-i18n="skip">Skip to library</a>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="Visual Study Notes">
+      <svg width="26" height="26" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="6" fill="var(--ink)"/><path d="M9 8h10l4 4v12H9z" fill="none" stroke="var(--paper)" stroke-width="2"/><path d="M12 16h8M12 20h6" stroke="var(--paper)" stroke-width="2"/></svg>
+      <span>Visual Study Notes</span>
+    </a>
+    <ul>
+      <li><a href="#courses" data-i18n="navCourses">Courses</a></li>
+      <li><a href="#library" data-i18n="navLibrary">Library</a></li>
+      <li><a href="#about" data-i18n="navAbout">About</a></li>
+    </ul>
+    <div class="end">
+      <button class="btn lang" id="lang" type="button" aria-label="切换语言 / Switch language">中文</button>
+      <a class="btn" href="https://github.com/xuanberns-design/visual-study-notes" aria-label="Star on GitHub">
+        <svg viewBox="0 0 16 16" aria-hidden="true" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+        <span class="gh-label" data-i18n="star">Star on GitHub</span>
+      </a>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+<section class="hero" aria-labelledby="h1">
+  <div class="wrap">
+    <div>
+      <h1 id="h1" data-i18n="h1">Illustrated notes for university STEM courses</h1>
+      <p class="lead"><span data-i18n="lead">Lecture notes and fully worked problem sets for calculus, linear algebra, complex analysis, physics, analog electronics, operations research, C++ and Python. Every concept is drawn, derived step by step, and tested with typical exam problems.</span><span class="zh-sub" data-i18n="leadNote">Written in Simplified Chinese. Free to read and download.</span></p>
+      <dl class="facts" aria-live="polite">
+        <div><dt data-i18n="fPdf">PDF handouts</dt><dd id="nPdf">–</dd></div>
+        <div><dt data-i18n="fPages">Pages</dt><dd id="nPages">–</dd></div>
+        <div><dt data-i18n="fCourses">Courses</dt><dd id="nCourses">–</dd></div>
+      </dl>
+      <div class="cta">
+        <a class="btn primary" href="#library" data-i18n="ctaBrowse">Browse the library</a>
+        <a class="btn" href="#courses" data-i18n="ctaIndex">See the course index</a>
+      </div>
+    </div>
+    <div class="stack" id="stack" aria-label="Sample handouts"></div>
+  </div>
+</section>
+
+<section id="courses" aria-labelledby="h-courses">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2 id="h-courses" data-i18n="coursesH">Course index</h2>
+      <p data-i18n="coursesP">Each course is split into lecture notes and worked problem sets. Bar length shows total pages. Select a course to open it in the library.</p>
+    </div>
+    <table class="index" id="index">
+      <thead><tr>
+        <th scope="col" data-i18n="thCourse">Course</th>
+        <th scope="col" class="num hide-s" data-i18n="thLec">Lecture notes</th>
+        <th scope="col" class="num hide-s" data-i18n="thPs">Problem sets</th>
+        <th scope="col" class="col-bar" data-i18n="thPages">Pages</th>
+      </tr></thead>
+    </table>
+  </div>
+</section>
+
+<section class="lib" id="library" aria-labelledby="h-lib" style="padding-top:0">
+  <div class="tools">
+    <div class="wrap">
+      <label class="search">
+        <span class="sr" data-i18n="searchLabel">Search handouts</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <input id="q" type="search" autocomplete="off" data-i18n-ph="searchPh" placeholder="Search: simplex, BJT, eigenvalue, 行列式…">
+      </label>
+      <div class="seg" role="group" aria-label="Type" id="kind">
+        <button type="button" data-k="" aria-pressed="true" data-i18n="kAll">All</button>
+        <button type="button" data-k="专题讲义" aria-pressed="false" data-i18n="kLec">Notes</button>
+        <button type="button" data-k="作业与习题解析" aria-pressed="false" data-i18n="kPs">Problem sets</button>
+      </div>
+      <label class="pick"><span class="sr" data-i18n="courseLabel">Course</span><select id="sub"></select></label>
+    </div>
+  </div>
+  <div class="wrap" style="padding-bottom:72px">
+    <h2 id="h-lib" class="sr" data-i18n="navLibrary">Library</h2>
+    <div class="status"><span id="count" aria-live="polite"></span><button type="button" id="clear" hidden data-i18n="clear">Clear filters</button></div>
+    <div id="results"></div>
+  </div>
+</section>
+
+<section class="about" id="about" aria-labelledby="h-about">
+  <div class="wrap">
+    <div class="sec-head"><h2 id="h-about" data-i18n="aboutH">How the handouts are built</h2></div>
+    <div class="cols">
+      <div>
+        <h3 data-i18n="a1H">One concept at a time</h3>
+        <p data-i18n="a1P">Each topic follows the same path, so you always know where you are:</p>
+        <ul class="anatomy">
+          <li data-i18n="s1">Definition</li><li data-i18n="s2">Intuition</li><li data-i18n="s3">Formula</li><li data-i18n="s4">Common mistakes</li><li data-i18n="s5">Worked examples</li>
+        </ul>
+      </div>
+      <div>
+        <h3 data-i18n="a2H">How to use them</h3>
+        <ul>
+          <li data-i18n="u1">Reviewing a course: start with its lecture notes.</li>
+          <li data-i18n="u2">Checking homework: open the problem sets, where every step is written out.</li>
+          <li data-i18n="u3">Everything at once: on GitHub, choose Code, then Download ZIP.</li>
+        </ul>
+      </div>
+      <div>
+        <h3 data-i18n="a3H">License and feedback</h3>
+        <p data-i18n="a3P">Released under CC BY-NC-SA 4.0. Share and adapt with attribution, not for commercial use. Found an error or want a course added? Open an issue on GitHub.</p>
+        <p><a href="https://github.com/xuanberns-design/visual-study-notes/issues" data-i18n="issue">Open an issue</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span data-i18n="foot">Compiled from course materials. Licensed CC BY-NC-SA 4.0.</span>
+    <a href="https://github.com/xuanberns-design/visual-study-notes">github.com/xuanberns-design/visual-study-notes</a>
+  </div>
+</footer>
+
 <script>
-fetch('catalog.json').then(r=>r.json()).then(I=>{
- const enc=p=>p.split('/').map(encodeURIComponent).join('/');
- const cats=[...new Set(I.map(i=>i.cat))].sort();let cur='全部';
- document.getElementById('sum').textContent=`${I.length} 份 PDF · ${I.reduce((a,i)=>a+i.pages,0)} 页 · ${new Set(I.map(i=>i.subject)).size} 门课程 · 点封面直接阅读`;
- const chips=document.getElementById('chips');
- ['全部',...cats].forEach(c=>{const b=document.createElement('button');b.className='chip'+(c==cur?' on':'');b.textContent=c=='全部'?c:c.slice(3);b.onclick=()=>{cur=c;[...chips.children].forEach(x=>x.classList.toggle('on',x==b));draw()};chips.appendChild(b)});
- const q=document.getElementById('q');q.oninput=draw;
- function draw(){const k=q.value.trim().toLowerCase();const m=document.getElementById('m');m.innerHTML='';
-  const subs={};I.filter(i=>(cur=='全部'||i.cat==cur)&&(!k||(i.title+i.subject).toLowerCase().includes(k)))
-   .sort((a,b)=>a.cat.localeCompare(b.cat)||a.subject.localeCompare(b.subject)||((a.kind=='专题讲义'?0:1)-(b.kind=='专题讲义'?0:1)))
-   .forEach(i=>(subs[i.subject]=subs[i.subject]||[]).push(i));
-  for(const [s,its] of Object.entries(subs)){const h=document.createElement('h2');h.id=s;h.innerHTML=`${s}<small>${its.length} 份</small>`;m.appendChild(h);
-   const g=document.createElement('div');g.className='grid';
-   its.forEach(i=>{const a=document.createElement('a');a.className='card';a.href=enc(i.pdf);a.target='_blank';
-    a.innerHTML=`<img loading="lazy" src="${enc(i.cover)}" alt=""><div class="meta"><div class="t"></div><div class="s">${i.kind} · ${i.pages} 页</div></div>`;a.querySelector('.t').textContent=i.title;g.appendChild(a)});
-   m.appendChild(g)}
-  if(!m.children.length)m.innerHTML='<p style="color:var(--mute)">没有找到相关讲义</p>';
-  if(location.hash){const e=document.getElementById(decodeURIComponent(location.hash.slice(1)));e&&e.scrollIntoView()}}
- draw()});
-</script></body></html>
+(function(){
+const FIELD={"01-数学":["数学","Mathematics"],"02-物理":["物理","Physics"],"03-电子与工程":["电子与工程","Electronics & Engineering"],"04-计算机与AI":["计算机与 AI","Computing & AI"],"05-英语":["英语","English"],"06-党团学习":["党团学习","Political Study"]};
+const SUBJ={"数学分析":"Mathematical Analysis","高等代数":"Advanced Algebra","复变函数与积分变换":"Complex Analysis & Integral Transforms","概率论与数理统计":"Probability & Statistics","大学物理":"University Physics","模拟电子技术基础":"Analog Electronics","工程制图":"Engineering Drawing","运筹学":"Operations Research","C语言":"C Programming","C++":"C++","Python":"Python","数据结构与算法":"Data Structures & Algorithms","人工智能与大模型":"Machine Learning & LLMs","大学英语六级":"CET-6 English","考研英语":"Graduate Entrance English","学术英语与论文阅读":"Academic English","入党积极分子":"Political Theory Essays"};
+const FEATURE=["静电场","BJT共射极图解","组合体"];
+const T={
+ en:{skip:"Skip to library",navCourses:"Courses",navLibrary:"Library",navAbout:"About",star:"Star on GitHub",
+  h1:"Illustrated notes for university STEM courses",
+  lead:"Lecture notes and fully worked problem sets for calculus, linear algebra, complex analysis, physics, analog electronics, operations research, C++ and Python. Every concept is drawn, derived step by step, and tested with typical exam problems.",
+  leadNote:"Written in Simplified Chinese. Free to read and download.",
+  fPdf:"PDF handouts",fPages:"Pages",fCourses:"Courses",ctaBrowse:"Browse the library",ctaIndex:"See the course index",
+  coursesH:"Course index",coursesP:"Each course is split into lecture notes and worked problem sets. Bar length shows total pages. Select a course to open it in the library.",
+  thCourse:"Course",thLec:"Lecture notes",thPs:"Problem sets",thPages:"Pages",
+  searchLabel:"Search handouts",searchPh:"Search: simplex, BJT, eigenvalue, 行列式…",kAll:"All",kLec:"Notes",kPs:"Problem sets",courseLabel:"Course",allCourses:"All courses",clear:"Clear filters",
+  aboutH:"How the handouts are built",a1H:"One concept at a time",a1P:"Each topic follows the same path, so you always know where you are:",
+  s1:"Definition",s2:"Intuition",s3:"Formula",s4:"Common mistakes",s5:"Worked examples",
+  a2H:"How to use them",u1:"Reviewing a course: start with its lecture notes.",u2:"Checking homework: open the problem sets, where every step is written out.",u3:"Everything at once: on GitHub, choose Code, then Download ZIP.",
+  a3H:"License and feedback",a3P:"Released under CC BY-NC-SA 4.0. Share and adapt with attribution, not for commercial use. Found an error or want a course added? Open an issue on GitHub.",issue:"Open an issue",
+  foot:"Compiled from course materials. Licensed CC BY-NC-SA 4.0.",
+  lec:"Notes",ps:"Problem set",pp:n=>n+" pp",docs:n=>n+(n==1?" handout":" handouts"),
+  showing:(a,b)=>a==b?`${b} handouts`:`Showing ${a} of ${b} handouts`,none:"No handouts match. Try a shorter keyword or clear the filters.",open:"Open PDF"},
+ zh:{skip:"跳到讲义库",navCourses:"课程",navLibrary:"讲义库",navAbout:"说明",star:"在 GitHub 上 Star",
+  h1:"大学理工科课程可视化讲义",
+  lead:"覆盖数学分析、高等代数、复变函数、大学物理、模拟电子、运筹学、C++ 与 Python 等课程的专题讲义和习题详解。每个概念都配图讲清，公式逐步推导，并用典型考题检验。",
+  leadNote:"全部 PDF 免费在线阅读和下载。",
+  fPdf:"PDF 讲义",fPages:"总页数",fCourses:"课程数",ctaBrowse:"浏览讲义库",ctaIndex:"查看课程目录",
+  coursesH:"课程目录",coursesP:"每门课分为专题讲义和作业与习题解析两类，条形长度表示总页数。点击课程即可在讲义库中打开。",
+  thCourse:"课程",thLec:"专题讲义",thPs:"习题解析",thPages:"页数",
+  searchLabel:"搜索讲义",searchPh:"搜索：行列式、单纯形、BJT、指针…",kAll:"全部",kLec:"专题讲义",kPs:"习题解析",courseLabel:"课程",allCourses:"全部课程",clear:"清除筛选",
+  aboutH:"讲义是怎样编写的",a1H:"一次讲透一个概念",a1P:"每个专题都按同一条路线展开，读到哪里一目了然：",
+  s1:"定义",s2:"直觉",s3:"公式",s4:"易错点",s5:"典型例题",
+  a2H:"怎么使用",u1:"系统复习：先读该课程的专题讲义。",u2:"对照作业：打开习题解析，每一步都写出来了。",u3:"一次全部下载：在 GitHub 页面点 Code，再点 Download ZIP。",
+  a3H:"版权与反馈",a3P:"采用 CC BY-NC-SA 4.0 协议：可以自由学习和转发，请注明出处，禁止商用。发现错误或想要新课程的讲义，欢迎在 GitHub 提 Issue。",issue:"提交 Issue",
+  foot:"依据课程课件整理 · CC BY-NC-SA 4.0",
+  lec:"专题讲义",ps:"习题解析",pp:n=>n+" 页",docs:n=>n+" 份",
+  showing:(a,b)=>a==b?`共 ${b} 份讲义`:`显示 ${a} / ${b} 份讲义`,none:"没有找到相关讲义。换个更短的关键词，或清除筛选。",open:"打开 PDF"}
+};
+let lang;try{lang=localStorage.getItem("vsn-lang")}catch(e){}
+if(lang!=="en"&&lang!=="zh")lang=/^zh/i.test(navigator.language||"")?"zh":"en";
+const $=s=>document.querySelector(s);
+const enc=p=>p.split("/").map(encodeURIComponent).join("/");
+const fmt=n=>n.toLocaleString("en-US");
+let I=[],state={q:"",kind:"",sub:""};
+
+function applyLang(){
+  const t=T[lang];document.documentElement.lang=lang=="zh"?"zh-CN":"en";
+  document.querySelectorAll("[data-i18n]").forEach(e=>{const v=t[e.dataset.i18n];if(typeof v=="string")e.textContent=v});
+  document.querySelectorAll("[data-i18n-ph]").forEach(e=>e.placeholder=t[e.dataset.i18nPh]);
+  $("#lang").textContent=lang=="zh"?"EN":"中文";
+  if(I.length){buildIndex();buildSelect();draw()}
+}
+$("#lang").onclick=()=>{lang=lang=="zh"?"en":"zh";try{localStorage.setItem("vsn-lang",lang)}catch(e){}applyLang()};
+
+const subName=s=>lang=="zh"?s:(SUBJ[s]||s);
+const subAlt=s=>lang=="zh"?(SUBJ[s]||""):s;
+function bySubject(){const m=new Map();I.forEach(i=>{if(!m.has(i.subject))m.set(i.subject,{cat:i.cat,items:[]});m.get(i.subject).items.push(i)});return m}
+
+function buildIndex(){
+  const t=T[lang],tbl=$("#index");tbl.querySelectorAll("tbody").forEach(b=>b.remove());
+  const m=bySubject();const max=Math.max(...[...m.values()].map(v=>v.items.reduce((a,i)=>a+i.pages,0)));
+  const cats=[...new Set(I.map(i=>i.cat))].sort();
+  cats.forEach(c=>{
+    const tb=document.createElement("tbody");tb.className="field";
+    tb.innerHTML=`<tr><th scope="rowgroup" colspan="4"></th></tr>`;tb.querySelector("th").textContent=(FIELD[c]||[c.slice(3),c.slice(3)])[lang=="zh"?0:1];
+    [...m.entries()].filter(([,v])=>v.cat==c).sort((a,b)=>b[1].items.reduce((x,i)=>x+i.pages,0)-a[1].items.reduce((x,i)=>x+i.pages,0)).forEach(([s,v])=>{
+      const lec=v.items.filter(i=>i.kind=="专题讲义").length,ps=v.items.length-lec,pg=v.items.reduce((a,i)=>a+i.pages,0);
+      const tr=document.createElement("tr");tr.className="row";
+      tr.innerHTML=`<td class="course"><a href="#${encodeURIComponent(s)}"></a><small></small></td><td class="num hide-s">${lec||"–"}</td><td class="num hide-s">${ps||"–"}</td><td><div class="bar"><b>${fmt(pg)}</b><span style="width:${Math.max(2,pg/max*100).toFixed(1)}%"></span></div></td>`;
+      tr.querySelector("a").textContent=subName(s);tr.querySelector("small").textContent=subAlt(s);
+      tr.querySelector("a").onclick=e=>{e.preventDefault();pick(s)};
+      tr.onclick=e=>{if(e.target.tagName!="A")pick(s)};
+      tb.appendChild(tr)});
+    tbl.appendChild(tb)});
+}
+function buildSelect(){
+  const sel=$("#sub"),m=bySubject();sel.innerHTML="";
+  const o=new Option(T[lang].allCourses,"");sel.add(o);
+  [...new Set(I.map(i=>i.cat))].sort().forEach(c=>{
+    const g=document.createElement("optgroup");g.label=(FIELD[c]||[c,c])[lang=="zh"?0:1];
+    [...m.entries()].filter(([,v])=>v.cat==c).forEach(([s])=>g.appendChild(new Option(subName(s),s)));
+    sel.appendChild(g)});
+  sel.value=state.sub;
+}
+function pick(s){state.sub=s;$("#sub").value=s;history.replaceState(null,"","#"+encodeURIComponent(s));draw();$("#library").scrollIntoView()}
+
+function draw(){
+  const t=T[lang],k=state.q.trim().toLowerCase();
+  const L=I.filter(i=>(!state.kind||i.kind==state.kind)&&(!state.sub||i.subject==state.sub)&&(!k||(i.title+" "+i.subject+" "+(SUBJ[i.subject]||"")).toLowerCase().includes(k)))
+   .sort((a,b)=>a.cat.localeCompare(b.cat)||a.subject.localeCompare(b.subject)||((a.kind=="专题讲义"?0:1)-(b.kind=="专题讲义"?0:1))||a.title.localeCompare(b.title,"zh"));
+  $("#count").textContent=t.showing(L.length,I.length);
+  $("#clear").hidden=!(state.q||state.kind||state.sub);
+  const R=$("#results");R.innerHTML="";
+  if(!L.length){R.innerHTML=`<p class="empty"></p>`;R.firstChild.textContent=t.none;return}
+  const groups=new Map();L.forEach(i=>{if(!groups.has(i.subject))groups.set(i.subject,[]);groups.get(i.subject).push(i)});
+  for(const [s,its] of groups){
+    const sec=document.createElement("div");sec.className="group";sec.id=s;
+    sec.innerHTML=`<h3><span></span><span class="en"></span><span class="cnt"></span></h3><div class="grid"></div>`;
+    const sp=sec.querySelectorAll("h3 span");sp[0].textContent=subName(s);sp[1].textContent=subAlt(s);sp[2].textContent=t.docs(its.length);
+    const g=sec.querySelector(".grid");
+    its.forEach(i=>{const a=document.createElement("a");a.className="doc";a.href=enc(i.pdf);a.target="_blank";a.rel="noopener";
+      const ps=i.kind!="专题讲义";
+      a.innerHTML=`<span class="cv"><img loading="lazy" decoding="async" width="480" height="679" alt="" src="${enc(i.cover)}"></span><div class="t"></div><div class="m"><i class="${ps?"ps":""}" aria-hidden="true"></i><span>${ps?t.ps:t.lec} · ${t.pp(i.pages)}</span></div>`;
+      a.querySelector(".t").textContent=i.title;a.setAttribute("aria-label",`${i.title}, ${t.open}, ${t.pp(i.pages)}`);
+      g.appendChild(a)});
+    R.appendChild(sec)}
+}
+
+let timer;$("#q").addEventListener("input",e=>{clearTimeout(timer);timer=setTimeout(()=>{state.q=e.target.value;draw()},120)});
+$("#kind").addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;state.kind=b.dataset.k;$("#kind").querySelectorAll("button").forEach(x=>x.setAttribute("aria-pressed",x==b));draw()});
+$("#sub").onchange=e=>{state.sub=e.target.value;history.replaceState(null,"",state.sub?"#"+encodeURIComponent(state.sub):location.pathname);draw()};
+$("#clear").onclick=()=>{state={q:"",kind:"",sub:""};$("#q").value="";$("#sub").value="";$("#kind").querySelectorAll("button").forEach((x,n)=>x.setAttribute("aria-pressed",n==0));history.replaceState(null,"",location.pathname);draw()};
+
+applyLang();
+fetch("catalog.json").then(r=>r.json()).then(d=>{
+  I=d;
+  $("#nPdf").textContent=fmt(I.length);$("#nPages").textContent=fmt(I.reduce((a,i)=>a+i.pages,0));$("#nCourses").textContent=new Set(I.map(i=>i.subject)).size;
+  let f=FEATURE.map(k=>I.find(i=>i.cover.includes(k))).filter(Boolean);
+  if(f.length<3)f=[...I].sort((a,b)=>b.pages-a.pages).slice(0,3);
+  $("#stack").innerHTML=f.map(i=>`<a href="${enc(i.pdf)}" target="_blank" rel="noopener"><img alt="" width="480" height="679" src="${enc(i.cover)}"></a>`).join("");
+  $("#stack").querySelectorAll("a").forEach((a,n)=>a.setAttribute("aria-label",f[n].title));
+  const h=decodeURIComponent(location.hash.slice(1));
+  if(h&&I.some(i=>i.subject==h))state.sub=h;
+  buildIndex();buildSelect();draw();
+  if(state.sub)$("#library").scrollIntoView();
+});
+})();
+</script>
+</body>
+</html>

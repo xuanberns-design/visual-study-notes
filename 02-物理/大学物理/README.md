@@ -1,9 +1,11 @@
-# 🧲 大学物理
+# 大学物理
+
+<sub>University Physics</sub>
 
 > 共 **15** 份 PDF · 606 页 · [返回首页](../../README.md) · [在线浏览](https://xuanberns-design.github.io/visual-study-notes/#%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86)
 
 
-## 📘 专题讲义（12）
+## 专题讲义（12）
 
 | 封面 | 标题 | 页数 | 下载 |
 |:---:|---|:---:|:---:|
@@ -20,7 +22,7 @@
 | <img src="%E4%B8%93%E9%A2%98%E8%AE%B2%E4%B9%89/covers/%E9%9D%99%E7%94%B5%E5%9C%BA_%E7%B2%BE%E8%AE%B2%E4%B8%8E%E5%85%B8%E5%9E%8B%E9%A2%98%E8%AF%A6%E8%A7%A3.jpg" width="110"> | **静电场：典型题与逐式详解** | 36 | [PDF](%E4%B8%93%E9%A2%98%E8%AE%B2%E4%B9%89/%E9%9D%99%E7%94%B5%E5%9C%BA_%E7%B2%BE%E8%AE%B2%E4%B8%8E%E5%85%B8%E5%9E%8B%E9%A2%98%E8%AF%A6%E8%A7%A3.pdf) |
 | <img src="%E4%B8%93%E9%A2%98%E8%AE%B2%E4%B9%89/covers/%E9%9D%99%E7%94%B5%E5%9C%BA_%E8%A7%84%E8%8C%83%E5%8C%96%E7%AC%94%E8%AE%B0%E4%B8%8E%E4%B8%93%E9%A1%B9%E8%AE%AD%E7%BB%83.jpg" width="110"> | **静电场：规范化笔记与分层训练** | 9 | [PDF](%E4%B8%93%E9%A2%98%E8%AE%B2%E4%B9%89/%E9%9D%99%E7%94%B5%E5%9C%BA_%E8%A7%84%E8%8C%83%E5%8C%96%E7%AC%94%E8%AE%B0%E4%B8%8E%E4%B8%93%E9%A1%B9%E8%AE%AD%E7%BB%83.pdf) |
 
-## 📝 作业与习题解析（3）
+## 作业与习题解析（3）
 
 | 封面 | 标题 | 页数 | 下载 |
 |:---:|---|:---:|:---:|

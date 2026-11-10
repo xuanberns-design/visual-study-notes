@@ -1,9 +1,11 @@
-# ⚙️ 工程制图
+# 工程制图
+
+<sub>Engineering Drawing</sub>
 
 > 共 **9** 份 PDF · 459 页 · [返回首页](../../README.md) · [在线浏览](https://xuanberns-design.github.io/visual-study-notes/#%E5%B7%A5%E7%A8%8B%E5%88%B6%E5%9B%BE)
 
 
-## 📘 专题讲义（6）
+## 专题讲义（6）
 
 | 封面 | 标题 | 页数 | 下载 |
 |:---:|---|:---:|:---:|
@@ -14,7 +16,7 @@
 | <img src="%E4%B8%93%E9%A2%98%E8%AE%B2%E4%B9%89/covers/%E7%AB%8B%E4%BD%93%E7%9A%84%E6%8A%95%E5%BD%B1_%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E8%AE%B2%E4%B9%89.jpg" width="110"> | **立体的投影 基础学习讲义** | 48 | [PDF](%E4%B8%93%E9%A2%98%E8%AE%B2%E4%B9%89/%E7%AB%8B%E4%BD%93%E7%9A%84%E6%8A%95%E5%BD%B1_%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E8%AE%B2%E4%B9%89.pdf) |
 | <img src="%E4%B8%93%E9%A2%98%E8%AE%B2%E4%B9%89/covers/%E7%BB%84%E5%90%88%E4%BD%93_%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E8%AE%B2%E4%B9%89.jpg" width="110"> | **组合体 基础学习讲义** | 80 | [PDF](%E4%B8%93%E9%A2%98%E8%AE%B2%E4%B9%89/%E7%BB%84%E5%90%88%E4%BD%93_%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E8%AE%B2%E4%B9%89.pdf) |
 
-## 📝 作业与习题解析（3）
+## 作业与习题解析（3）
 
 | 封面 | 标题 | 页数 | 下载 |
 |:---:|---|:---:|:---:|

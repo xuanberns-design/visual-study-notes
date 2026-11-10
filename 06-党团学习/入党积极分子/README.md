@@ -1,9 +1,11 @@
-# 🚩 入党积极分子
+# 入党积极分子
+
+<sub>Political Theory Essays</sub>
 
 > 共 **1** 份 PDF · 33 页 · [返回首页](../../README.md) · [在线浏览](https://xuanberns-design.github.io/visual-study-notes/#%E5%85%A5%E5%85%9A%E7%A7%AF%E6%9E%81%E5%88%86%E5%AD%90)
 
 
-## 📘 专题讲义（1）
+## 专题讲义（1）
 
 | 封面 | 标题 | 页数 | 下载 |
 |:---:|---|:---:|:---:|

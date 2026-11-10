@@ -1,9 +1,11 @@
-# 📖 大学英语六级
+# 大学英语六级
+
+<sub>CET-6 English</sub>
 
 > 共 **6** 份 PDF · 279 页 · [返回首页](../../README.md) · [在线浏览](https://xuanberns-design.github.io/visual-study-notes/#%E5%A4%A7%E5%AD%A6%E8%8B%B1%E8%AF%AD%E5%85%AD%E7%BA%A7)
 
 
-## 📘 专题讲义（6）
+## 专题讲义（6）
 
 | 封面 | 标题 | 页数 | 下载 |
 |:---:|---|:---:|:---:|

@@ -1,9 +1,11 @@
-# 📐 数学分析
+# 数学分析
+
+<sub>Mathematical Analysis</sub>
 
 > 共 **2** 份 PDF · 62 页 · [返回首页](../../README.md) · [在线浏览](https://xuanberns-design.github.io/visual-study-notes/#%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90)
 
 
-## 📘 专题讲义（2）
+## 专题讲义（2）
 
 | 封面 | 标题 | 页数 | 下载 |
 |:---:|---|:---:|:---:|

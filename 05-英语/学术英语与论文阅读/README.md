@@ -1,15 +1,17 @@
-# 📖 学术英语与论文阅读
+# 学术英语与论文阅读
+
+<sub>Academic English</sub>
 
 > 共 **3** 份 PDF · 53 页 · [返回首页](../../README.md) · [在线浏览](https://xuanberns-design.github.io/visual-study-notes/#%E5%AD%A6%E6%9C%AF%E8%8B%B1%E8%AF%AD%E4%B8%8E%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB)
 
 
-## 📘 专题讲义（1）
+## 专题讲义（1）
 
 | 封面 | 标题 | 页数 | 下载 |
 |:---:|---|:---:|:---:|
 | <img src="%E4%B8%93%E9%A2%98%E8%AE%B2%E4%B9%89/covers/Near-Optimal_Sensor_Placements_in_Gaussian_Processes_%E8%AE%BA%E6%96%87%E7%B2%BE%E8%AF%BB%E5%85%A5%E9%97%A8%E8%AE%B2%E4%B9%89.jpg" width="110"> | **Near-Optimal Sensor Placements in Gaussian Processes 论文精读入门讲义** | 26 | [PDF](%E4%B8%93%E9%A2%98%E8%AE%B2%E4%B9%89/Near-Optimal_Sensor_Placements_in_Gaussian_Processes_%E8%AE%BA%E6%96%87%E7%B2%BE%E8%AF%BB%E5%85%A5%E9%97%A8%E8%AE%B2%E4%B9%89.pdf) |
 
-## 📝 作业与习题解析（2）
+## 作业与习题解析（2）
 
 | 封面 | 标题 | 页数 | 下载 |
 |:---:|---|:---:|:---:|
