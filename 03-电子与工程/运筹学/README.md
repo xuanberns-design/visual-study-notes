@@ -1,9 +1,11 @@
-# ⚙️ 运筹学
+# 运筹学
+
+<sub>Operations Research</sub>
 
 > 共 **17** 份 PDF · 699 页 · [返回首页](../../README.md) · [在线浏览](https://xuanberns-design.github.io/visual-study-notes/#%E8%BF%90%E7%AD%B9%E5%AD%A6)
 
 
-## 📘 专题讲义（14）
+## 专题讲义（14）
 
 | 封面 | 标题 | 页数 | 下载 |
 |:---:|---|:---:|:---:|
@@ -22,7 +24,7 @@
 | <img src="%E4%B8%93%E9%A2%98%E8%AE%B2%E4%B9%89/covers/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80%E4%B8%93%E9%A2%98%E8%AE%B2%E4%B9%89%E4%B8%8E%E9%85%8D%E5%A5%97%E7%BB%83%E4%B9%A0.jpg" width="110"> | **运筹学基础专题讲义与配套练习** | 44 | [PDF](%E4%B8%93%E9%A2%98%E8%AE%B2%E4%B9%89/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80%E4%B8%93%E9%A2%98%E8%AE%B2%E4%B9%89%E4%B8%8E%E9%85%8D%E5%A5%97%E7%BB%83%E4%B9%A0.pdf) |
 | <img src="%E4%B8%93%E9%A2%98%E8%AE%B2%E4%B9%89/covers/%E8%BF%90%E8%BE%93%E9%97%AE%E9%A2%98_%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E8%AE%B2%E4%B9%89.jpg" width="110"> | **运输问题 基础学习讲义** | 66 | [PDF](%E4%B8%93%E9%A2%98%E8%AE%B2%E4%B9%89/%E8%BF%90%E8%BE%93%E9%97%AE%E9%A2%98_%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E8%AE%B2%E4%B9%89.pdf) |
 
-## 📝 作业与习题解析（3）
+## 作业与习题解析（3）
 
 | 封面 | 标题 | 页数 | 下载 |
 |:---:|---|:---:|:---:|

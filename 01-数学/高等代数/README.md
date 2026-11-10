@@ -1,9 +1,11 @@
-# 📐 高等代数
+# 高等代数
+
+<sub>Advanced Algebra</sub>
 
 > 共 **5** 份 PDF · 148 页 · [返回首页](../../README.md) · [在线浏览](https://xuanberns-design.github.io/visual-study-notes/#%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0)
 
 
-## 📘 专题讲义（5）
+## 专题讲义（5）
 
 | 封面 | 标题 | 页数 | 下载 |
 |:---:|---|:---:|:---:|

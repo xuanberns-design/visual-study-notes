@@ -1,9 +1,11 @@
-# 💻 数据结构与算法
+# 数据结构与算法
+
+<sub>Data Structures & Algorithms</sub>
 
 > 共 **12** 份 PDF · 639 页 · [返回首页](../../README.md) · [在线浏览](https://xuanberns-design.github.io/visual-study-notes/#%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95)
 
 
-## 📘 专题讲义（7）
+## 专题讲义（7）
 
 | 封面 | 标题 | 页数 | 下载 |
 |:---:|---|:---:|:---:|
@@ -15,7 +17,7 @@
 | <img src="%E4%B8%93%E9%A2%98%E8%AE%B2%E4%B9%89/covers/%E6%A0%88%E4%B8%8E%E9%98%9F%E5%88%97_%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E8%AE%B2%E4%B9%89.jpg" width="110"> | **栈与队列：可视化专题讲义** | 95 | [PDF](%E4%B8%93%E9%A2%98%E8%AE%B2%E4%B9%89/%E6%A0%88%E4%B8%8E%E9%98%9F%E5%88%97_%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E8%AE%B2%E4%B9%89.pdf) |
 | <img src="%E4%B8%93%E9%A2%98%E8%AE%B2%E4%B9%89/covers/%E7%BA%BF%E6%80%A7%E8%A1%A8_%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E8%AE%B2%E4%B9%89.jpg" width="110"> | **线性表 可视化基础讲义** | 81 | [PDF](%E4%B8%93%E9%A2%98%E8%AE%B2%E4%B9%89/%E7%BA%BF%E6%80%A7%E8%A1%A8_%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E8%AE%B2%E4%B9%89.pdf) |
 
-## 📝 作业与习题解析（5）
+## 作业与习题解析（5）
 
 | 封面 | 标题 | 页数 | 下载 |
 |:---:|---|:---:|:---:|

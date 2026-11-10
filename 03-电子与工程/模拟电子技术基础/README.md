@@ -1,9 +1,11 @@
-# ⚙️ 模拟电子技术基础
+# 模拟电子技术基础
+
+<sub>Analog Electronics</sub>
 
 > 共 **19** 份 PDF · 799 页 · [返回首页](../../README.md) · [在线浏览](https://xuanberns-design.github.io/visual-study-notes/#%E6%A8%A1%E6%8B%9F%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80)
 
 
-## 📘 专题讲义（14）
+## 专题讲义（14）
 
 | 封面 | 标题 | 页数 | 下载 |
 |:---:|---|:---:|:---:|
@@ -22,7 +24,7 @@
 | <img src="%E4%B8%93%E9%A2%98%E8%AE%B2%E4%B9%89/covers/%E6%A8%A1%E7%94%B5%E6%9C%9F%E4%B8%AD%E7%BB%BC%E5%90%88%E6%80%BB%E5%A4%8D%E4%B9%A0_%E4%BB%8E%E5%8D%8A%E5%AF%BC%E4%BD%93%E5%88%B0%E5%8A%9F%E7%8E%87%E6%94%BE%E5%A4%A7.jpg" width="110"> | **模电期中综合总复习 从半导体到功率放大** | 74 | [PDF](%E4%B8%93%E9%A2%98%E8%AE%B2%E4%B9%89/%E6%A8%A1%E7%94%B5%E6%9C%9F%E4%B8%AD%E7%BB%BC%E5%90%88%E6%80%BB%E5%A4%8D%E4%B9%A0_%E4%BB%8E%E5%8D%8A%E5%AF%BC%E4%BD%93%E5%88%B0%E5%8A%9F%E7%8E%87%E6%94%BE%E5%A4%A7.pdf) |
 | <img src="%E4%B8%93%E9%A2%98%E8%AE%B2%E4%B9%89/covers/%E9%9D%99%E6%80%81%E5%B7%A5%E4%BD%9C%E7%82%B9%E7%A8%B3%E5%AE%9A%E4%B8%8E%E5%85%B1%E9%9B%86%E5%85%B1%E5%9F%BA_%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E8%AE%B2%E4%B9%89.jpg" width="110"> | **静态工作点稳定与共集共基 基础学习讲义** | 50 | [PDF](%E4%B8%93%E9%A2%98%E8%AE%B2%E4%B9%89/%E9%9D%99%E6%80%81%E5%B7%A5%E4%BD%9C%E7%82%B9%E7%A8%B3%E5%AE%9A%E4%B8%8E%E5%85%B1%E9%9B%86%E5%85%B1%E5%9F%BA_%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E8%AE%B2%E4%B9%89.pdf) |
 
-## 📝 作业与习题解析（5）
+## 作业与习题解析（5）
 
 | 封面 | 标题 | 页数 | 下载 |
 |:---:|---|:---:|:---:|

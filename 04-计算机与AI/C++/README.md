@@ -1,9 +1,11 @@
-# 💻 C++
+# C++
+
+<sub>C++</sub>
 
 > 共 **12** 份 PDF · 540 页 · [返回首页](../../README.md) · [在线浏览](https://xuanberns-design.github.io/visual-study-notes/#C%2B%2B)
 
 
-## 📘 专题讲义（12）
+## 专题讲义（12）
 
 | 封面 | 标题 | 页数 | 下载 |
 |:---:|---|:---:|:---:|

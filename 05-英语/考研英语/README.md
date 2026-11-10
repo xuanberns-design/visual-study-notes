@@ -1,9 +1,11 @@
-# 📖 考研英语
+# 考研英语
+
+<sub>Graduate Entrance English</sub>
 
 > 共 **1** 份 PDF · 9 页 · [返回首页](../../README.md) · [在线浏览](https://xuanberns-design.github.io/visual-study-notes/#%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD)
 
 
-## 📘 专题讲义（1）
+## 专题讲义（1）
 
 | 封面 | 标题 | 页数 | 下载 |
 |:---:|---|:---:|:---:|

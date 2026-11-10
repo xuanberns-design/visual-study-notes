@@ -1,9 +1,11 @@
-# 📐 复变函数与积分变换
+# 复变函数与积分变换
+
+<sub>Complex Analysis & Integral Transforms</sub>
 
 > 共 **19** 份 PDF · 787 页 · [返回首页](../../README.md) · [在线浏览](https://xuanberns-design.github.io/visual-study-notes/#%E5%A4%8D%E5%8F%98%E5%87%BD%E6%95%B0%E4%B8%8E%E7%A7%AF%E5%88%86%E5%8F%98%E6%8D%A2)
 
 
-## 📘 专题讲义（9）
+## 专题讲义（9）
 
 | 封面 | 标题 | 页数 | 下载 |
 |:---:|---|:---:|:---:|
@@ -17,7 +19,7 @@
 | <img src="%E4%B8%93%E9%A2%98%E8%AE%B2%E4%B9%89/covers/%E5%A4%8D%E6%95%B0%E5%9F%BA%E7%A1%80_%E7%9F%A5%E8%AF%86%E7%B2%BE%E8%AE%B2%E4%B8%8E%E5%85%B8%E5%9E%8B%E9%A2%98%E5%BA%93.jpg" width="110"> | **复数基础：知识精讲与典型题库** | 18 | [PDF](%E4%B8%93%E9%A2%98%E8%AE%B2%E4%B9%89/%E5%A4%8D%E6%95%B0%E5%9F%BA%E7%A1%80_%E7%9F%A5%E8%AF%86%E7%B2%BE%E8%AE%B2%E4%B8%8E%E5%85%B8%E5%9E%8B%E9%A2%98%E5%BA%93.pdf) |
 | <img src="%E4%B8%93%E9%A2%98%E8%AE%B2%E4%B9%89/covers/%E5%A4%8D%E5%8F%98%E5%87%BD%E6%95%B0_%E8%A7%A3%E6%9E%90%E5%87%BD%E6%95%B0%E4%B8%8ECR%E6%96%B9%E7%A8%8B.jpg" width="110"> | **解析函数、复可导与Cauchy–Riemann方程可视化基础讲义** | 46 | [PDF](%E4%B8%93%E9%A2%98%E8%AE%B2%E4%B9%89/%E5%A4%8D%E5%8F%98%E5%87%BD%E6%95%B0_%E8%A7%A3%E6%9E%90%E5%87%BD%E6%95%B0%E4%B8%8ECR%E6%96%B9%E7%A8%8B.pdf) |
 
-## 📝 作业与习题解析（10）
+## 作业与习题解析（10）
 
 | 封面 | 标题 | 页数 | 下载 |
 |:---:|---|:---:|:---:|

@@ -1,9 +1,11 @@
-# 📐 概率论与数理统计
+# 概率论与数理统计
+
+<sub>Probability & Statistics</sub>
 
 > 共 **7** 份 PDF · 254 页 · [返回首页](../../README.md) · [在线浏览](https://xuanberns-design.github.io/visual-study-notes/#%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1)
 
 
-## 📘 专题讲义（7）
+## 专题讲义（7）
 
 | 封面 | 标题 | 页数 | 下载 |
 |:---:|---|:---:|:---:|
