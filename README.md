@@ -7,7 +7,7 @@
 Illustrated lecture notes and fully worked problem sets for university STEM courses.<br>
 数学、物理、电子、运筹学、编程与英语课程的可视化讲义与习题详解。
 
-**138 PDFs · 5,919 pages · 17 courses**
+**139 PDFs · 5,968 pages · 17 courses**
 
 [![Stars](https://img.shields.io/github/stars/xuanberns-design/visual-study-notes?style=flat&color=173A66)](https://github.com/xuanberns-design/visual-study-notes/stargazers)
 [![Browse online](https://img.shields.io/badge/browse-online-1F5FA8)](https://xuanberns-design.github.io/visual-study-notes/)
@@ -44,7 +44,7 @@ Illustrated lecture notes and fully worked problem sets for university STEM cour
 | Course 课程 | Lecture notes 专题讲义 | Problem sets 习题解析 | Pages 页数 |
 |---|:---:|:---:|---:|
 | [工程制图](03-%E7%94%B5%E5%AD%90%E4%B8%8E%E5%B7%A5%E7%A8%8B/%E5%B7%A5%E7%A8%8B%E5%88%B6%E5%9B%BE/README.md) <sub>Engineering Drawing</sub> | 6 | 3 | 459 |
-| [模拟电子技术基础](03-%E7%94%B5%E5%AD%90%E4%B8%8E%E5%B7%A5%E7%A8%8B/%E6%A8%A1%E6%8B%9F%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80/README.md) <sub>Analog Electronics</sub> | 14 | 5 | 799 |
+| [模拟电子技术基础](03-%E7%94%B5%E5%AD%90%E4%B8%8E%E5%B7%A5%E7%A8%8B/%E6%A8%A1%E6%8B%9F%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80/README.md) <sub>Analog Electronics</sub> | 14 | 6 | 848 |
 | [运筹学](03-%E7%94%B5%E5%AD%90%E4%B8%8E%E5%B7%A5%E7%A8%8B/%E8%BF%90%E7%AD%B9%E5%AD%A6/README.md) <sub>Operations Research</sub> | 14 | 3 | 699 |
 
 ### 计算机与AI · Computing & AI
