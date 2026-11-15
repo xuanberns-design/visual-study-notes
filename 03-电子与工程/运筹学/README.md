@@ -2,10 +2,10 @@
 
 <sub>Operations Research</sub>
 
-> 共 **17** 份 PDF · 699 页 · [返回首页](../../README.md) · [在线浏览](https://xuanberns-design.github.io/visual-study-notes/#%E8%BF%90%E7%AD%B9%E5%AD%A6)
+> 共 **18** 份 PDF · 744 页 · [返回首页](../../README.md) · [在线浏览](https://xuanberns-design.github.io/visual-study-notes/#%E8%BF%90%E7%AD%B9%E5%AD%A6)
 
 
-## 专题讲义（14）
+## 专题讲义（15）
 
 | 封面 | 标题 | 页数 | 下载 |
 |:---:|---|:---:|:---:|
@@ -20,6 +20,7 @@
 | <img src="%E4%B8%93%E9%A2%98%E8%AE%B2%E4%B9%89/covers/%E6%95%B4%E6%95%B0%E8%A7%84%E5%88%92_0-1%E8%A7%84%E5%88%92%E4%B8%8E%E6%8C%87%E6%B4%BE%E9%97%AE%E9%A2%98_%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E8%AE%B2%E4%B9%89.jpg" width="110"> | **整数规划 0-1规划与指派问题 基础学习讲义** | 50 | [PDF](%E4%B8%93%E9%A2%98%E8%AE%B2%E4%B9%89/%E6%95%B4%E6%95%B0%E8%A7%84%E5%88%92_0-1%E8%A7%84%E5%88%92%E4%B8%8E%E6%8C%87%E6%B4%BE%E9%97%AE%E9%A2%98_%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E8%AE%B2%E4%B9%89.pdf) |
 | <img src="%E4%B8%93%E9%A2%98%E8%AE%B2%E4%B9%89/covers/%E6%95%B4%E6%95%B0%E8%A7%84%E5%88%92%E4%B8%8E%E5%88%86%E6%94%AF%E5%AE%9A%E7%95%8C%E6%B3%95_%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E8%AE%B2%E4%B9%89.jpg" width="110"> | **整数规划与分支定界法 基础学习讲义** | 67 | [PDF](%E4%B8%93%E9%A2%98%E8%AE%B2%E4%B9%89/%E6%95%B4%E6%95%B0%E8%A7%84%E5%88%92%E4%B8%8E%E5%88%86%E6%94%AF%E5%AE%9A%E7%95%8C%E6%B3%95_%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E8%AE%B2%E4%B9%89.pdf) |
 | <img src="%E4%B8%93%E9%A2%98%E8%AE%B2%E4%B9%89/covers/%E7%BA%BF%E6%80%A7%E7%9B%AE%E6%A0%87%E8%A7%84%E5%88%92_%E5%8F%AF%E8%A7%86%E5%8C%96%E4%B8%93%E9%A2%98%E8%AE%B2%E4%B9%89.jpg" width="110"> | **线性目标规划 可视化专题讲义** | 58 | [PDF](%E4%B8%93%E9%A2%98%E8%AE%B2%E4%B9%89/%E7%BA%BF%E6%80%A7%E7%9B%AE%E6%A0%87%E8%A7%84%E5%88%92_%E5%8F%AF%E8%A7%86%E5%8C%96%E4%B8%93%E9%A2%98%E8%AE%B2%E4%B9%89.pdf) |
+| <img src="%E4%B8%93%E9%A2%98%E8%AE%B2%E4%B9%89/covers/%E7%BA%BF%E6%80%A7%E8%A7%84%E5%88%92%E4%B8%8E%E5%8F%82%E6%95%B0%E7%BA%BF%E6%80%A7%E8%A7%84%E5%88%92_%E5%8F%AF%E8%A7%86%E5%8C%96%E8%AE%B2%E4%B9%89.jpg" width="110"> | **线性规划与参数线性规划 可视化讲义** | 45 | [PDF](%E4%B8%93%E9%A2%98%E8%AE%B2%E4%B9%89/%E7%BA%BF%E6%80%A7%E8%A7%84%E5%88%92%E4%B8%8E%E5%8F%82%E6%95%B0%E7%BA%BF%E6%80%A7%E8%A7%84%E5%88%92_%E5%8F%AF%E8%A7%86%E5%8C%96%E8%AE%B2%E4%B9%89.pdf) |
 | <img src="%E4%B8%93%E9%A2%98%E8%AE%B2%E4%B9%89/covers/%E7%BA%BF%E6%80%A7%E8%A7%84%E5%88%92%E8%AE%B2%E4%B9%89%E4%B8%8E%E9%A2%98%E5%BA%93.jpg" width="110"> | **线性规划：专题题库与答案** | 13 | [PDF](%E4%B8%93%E9%A2%98%E8%AE%B2%E4%B9%89/%E7%BA%BF%E6%80%A7%E8%A7%84%E5%88%92%E8%AE%B2%E4%B9%89%E4%B8%8E%E9%A2%98%E5%BA%93.pdf) |
 | <img src="%E4%B8%93%E9%A2%98%E8%AE%B2%E4%B9%89/covers/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80%E4%B8%93%E9%A2%98%E8%AE%B2%E4%B9%89%E4%B8%8E%E9%85%8D%E5%A5%97%E7%BB%83%E4%B9%A0.jpg" width="110"> | **运筹学基础专题讲义与配套练习** | 44 | [PDF](%E4%B8%93%E9%A2%98%E8%AE%B2%E4%B9%89/%E8%BF%90%E7%AD%B9%E5%AD%A6%E5%9F%BA%E7%A1%80%E4%B8%93%E9%A2%98%E8%AE%B2%E4%B9%89%E4%B8%8E%E9%85%8D%E5%A5%97%E7%BB%83%E4%B9%A0.pdf) |
 | <img src="%E4%B8%93%E9%A2%98%E8%AE%B2%E4%B9%89/covers/%E8%BF%90%E8%BE%93%E9%97%AE%E9%A2%98_%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E8%AE%B2%E4%B9%89.jpg" width="110"> | **运输问题 基础学习讲义** | 66 | [PDF](%E4%B8%93%E9%A2%98%E8%AE%B2%E4%B9%89/%E8%BF%90%E8%BE%93%E9%97%AE%E9%A2%98_%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E8%AE%B2%E4%B9%89.pdf) |
