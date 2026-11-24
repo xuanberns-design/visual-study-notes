@@ -7,7 +7,7 @@
 Illustrated lecture notes and fully worked problem sets for university STEM courses.<br>
 数学、物理、电子、运筹学、编程与英语课程的可视化讲义与习题详解。
 
-**140 PDFs · 6,013 pages · 17 courses**
+**141 PDFs · 6,058 pages · 17 courses**
 
 [![Stars](https://img.shields.io/github/stars/xuanberns-design/visual-study-notes?style=flat&color=173A66)](https://github.com/xuanberns-design/visual-study-notes/stargazers)
 [![Browse online](https://img.shields.io/badge/browse-online-1F5FA8)](https://xuanberns-design.github.io/visual-study-notes/)
@@ -28,7 +28,7 @@ Illustrated lecture notes and fully worked problem sets for university STEM cour
 
 | Course 课程 | Lecture notes 专题讲义 | Problem sets 习题解析 | Pages 页数 |
 |---|:---:|:---:|---:|
-| [复变函数与积分变换](01-%E6%95%B0%E5%AD%A6/%E5%A4%8D%E5%8F%98%E5%87%BD%E6%95%B0%E4%B8%8E%E7%A7%AF%E5%88%86%E5%8F%98%E6%8D%A2/README.md) <sub>Complex Analysis & Integral Transforms</sub> | 9 | 10 | 787 |
+| [复变函数与积分变换](01-%E6%95%B0%E5%AD%A6/%E5%A4%8D%E5%8F%98%E5%87%BD%E6%95%B0%E4%B8%8E%E7%A7%AF%E5%88%86%E5%8F%98%E6%8D%A2/README.md) <sub>Complex Analysis & Integral Transforms</sub> | 10 | 10 | 832 |
 | [数学分析](01-%E6%95%B0%E5%AD%A6/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90/README.md) <sub>Mathematical Analysis</sub> | 2 | — | 62 |
 | [概率论与数理统计](01-%E6%95%B0%E5%AD%A6/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/README.md) <sub>Probability & Statistics</sub> | 7 | — | 254 |
 | [高等代数](01-%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0/README.md) <sub>Advanced Algebra</sub> | 5 | — | 148 |

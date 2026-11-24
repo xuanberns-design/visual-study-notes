@@ -2,13 +2,14 @@
 
 <sub>Complex Analysis & Integral Transforms</sub>
 
-> 共 **19** 份 PDF · 787 页 · [返回首页](../../README.md) · [在线浏览](https://xuanberns-design.github.io/visual-study-notes/#%E5%A4%8D%E5%8F%98%E5%87%BD%E6%95%B0%E4%B8%8E%E7%A7%AF%E5%88%86%E5%8F%98%E6%8D%A2)
+> 共 **20** 份 PDF · 832 页 · [返回首页](../../README.md) · [在线浏览](https://xuanberns-design.github.io/visual-study-notes/#%E5%A4%8D%E5%8F%98%E5%87%BD%E6%95%B0%E4%B8%8E%E7%A7%AF%E5%88%86%E5%8F%98%E6%8D%A2)
 
 
-## 专题讲义（9）
+## 专题讲义（10）
 
 | 封面 | 标题 | 页数 | 下载 |
 |:---:|---|:---:|:---:|
+| <img src="%E4%B8%93%E9%A2%98%E8%AE%B2%E4%B9%89/covers/%E5%A4%8D%E5%8F%98%E5%87%BD%E6%95%B0_%E7%AC%AC%E4%BA%94%E7%AB%A0_%E7%95%99%E6%95%B0%E5%8F%8A%E5%85%B6%E5%BA%94%E7%94%A8_%E5%8F%AF%E8%A7%86%E5%8C%96%E4%B8%93%E9%A2%98%E8%AE%B2%E4%B9%89.jpg" width="110"> | **复变函数 第五章 留数及其应用 可视化专题讲义** | 45 | [PDF](%E4%B8%93%E9%A2%98%E8%AE%B2%E4%B9%89/%E5%A4%8D%E5%8F%98%E5%87%BD%E6%95%B0_%E7%AC%AC%E4%BA%94%E7%AB%A0_%E7%95%99%E6%95%B0%E5%8F%8A%E5%85%B6%E5%BA%94%E7%94%A8_%E5%8F%AF%E8%A7%86%E5%8C%96%E4%B8%93%E9%A2%98%E8%AE%B2%E4%B9%89.pdf) |
 | <img src="%E4%B8%93%E9%A2%98%E8%AE%B2%E4%B9%89/covers/%E5%A4%8D%E5%8F%98%E5%87%BD%E6%95%B0_%E7%AC%AC%E5%9B%9B%E7%AB%A0_%E5%8F%AF%E8%A7%86%E5%8C%96%E4%B8%93%E9%A2%98%E8%AE%B2%E4%B9%89.jpg" width="110"> | **复变函数 第四章 可视化专题讲义** | 50 | [PDF](%E4%B8%93%E9%A2%98%E8%AE%B2%E4%B9%89/%E5%A4%8D%E5%8F%98%E5%87%BD%E6%95%B0_%E7%AC%AC%E5%9B%9B%E7%AB%A0_%E5%8F%AF%E8%A7%86%E5%8C%96%E4%B8%93%E9%A2%98%E8%AE%B2%E4%B9%89.pdf) |
 | <img src="%E4%B8%93%E9%A2%98%E8%AE%B2%E4%B9%89/covers/%E5%A4%8D%E5%8F%98%E5%87%BD%E6%95%B0%E5%9F%BA%E7%A1%80_%E5%89%8D%E4%B8%89%E7%AB%A0%E8%AE%B2%E4%B9%89.jpg" width="110"> | **复变函数基础 前三章讲义** | 49 | [PDF](%E4%B8%93%E9%A2%98%E8%AE%B2%E4%B9%89/%E5%A4%8D%E5%8F%98%E5%87%BD%E6%95%B0%E5%9F%BA%E7%A1%80_%E5%89%8D%E4%B8%89%E7%AB%A0%E8%AE%B2%E4%B9%89.pdf) |
 | <img src="%E4%B8%93%E9%A2%98%E8%AE%B2%E4%B9%89/covers/%E5%A4%8D%E5%8F%98%E5%87%BD%E6%95%B0%E5%9F%BA%E7%A1%80%E4%B8%93%E9%A2%98_%E8%A7%A3%E6%9E%90%E5%87%BD%E6%95%B0%E3%80%81%E6%B1%82%E5%AF%BC%E6%B3%95%E5%88%99%E4%B8%8E_Cauchy%E2%80%93Riemann_%E6%96%B9%E7%A8%8B.jpg" width="110"> | **复变函数基础专题：解析函数、求导法则与 Cauchy–Riemann 方程** | 30 | [PDF](%E4%B8%93%E9%A2%98%E8%AE%B2%E4%B9%89/%E5%A4%8D%E5%8F%98%E5%87%BD%E6%95%B0%E5%9F%BA%E7%A1%80%E4%B8%93%E9%A2%98_%E8%A7%A3%E6%9E%90%E5%87%BD%E6%95%B0%E3%80%81%E6%B1%82%E5%AF%BC%E6%B3%95%E5%88%99%E4%B8%8E_Cauchy%E2%80%93Riemann_%E6%96%B9%E7%A8%8B.pdf) |
